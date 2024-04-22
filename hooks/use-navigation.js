@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 export const useNavigation = (section) => {
+  const [activeSection, setActiveSection] = useState("home");
   const { ref, inView } = useInView({ threshold: 0 });
 
   const handleActiveSection = (link) => {
@@ -14,5 +15,5 @@ export const useNavigation = (section) => {
     }
   }, [inView, section]);
 
-  return { handleActiveSection, ref };
+  return { handleActiveSection, ref, activeSection };
 };
