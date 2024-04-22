@@ -15,11 +15,11 @@ const Aboutus = () => {
       <div className="text-center relative py-[5rem] max-w-[600px] mx-auto space-y-8">
         <SubHeading>About Us</SubHeading>
         <PrimaryHeading>
-          Crafting Tomorrow's Innovative Solutions
+          Crafting {`Tomorrow&apos;s`} Innovative Solutions
         </PrimaryHeading>
         <p className="text-white sm:text-[1.33rem] text-[1rem] tracking-[-.21px]  leading-[144%]">
-          We're consistently pushing the boundaries of innovation to create
-          groundbreaking solutions that effectively meet today's challenges.
+          We'res consistently pushing the boundaries of innovation to create
+          groundbreaking solutions that effectively meet today`s challenges.
         </p>
 
         <ButtonLink
