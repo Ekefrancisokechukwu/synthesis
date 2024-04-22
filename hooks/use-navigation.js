@@ -11,9 +11,8 @@ export const useNavigation = (section) => {
   useEffect(() => {
     if (inView) {
       setActiveSection(section);
-      console.log(activeSection);
     }
-  }, []);
+  }, [inView, section]);
 
   return { activeSection, handleActiveSection, ref };
 };
