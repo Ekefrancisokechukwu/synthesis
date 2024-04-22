@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .hero-gradient {
+    background-image: radial-gradient(
+      100% 100% at 50% 50%,
+      rgba(143, 55, 255, 0.35),
+      rgba(143, 55, 255, 0.35) 0%,
+      rgb(0, 0, 16),
+      rgb(0, 0, 16) 100%
+    );
+  }
+}
