@@ -14,5 +14,5 @@ export const useNavigation = (section) => {
     }
   }, [inView, section]);
 
-  return { activeSection, handleActiveSection, ref };
+  return { handleActiveSection, ref };
 };
